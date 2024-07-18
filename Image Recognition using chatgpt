@@ -52,3 +52,5 @@ probability_model = tf.keras.Sequential([model,
 predictions = probability_model.predict(test_images)
 # View the prediction for the first test image
 print(class_names[np.argmax(predictions[0])])
+
+
