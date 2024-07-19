@@ -1,1 +1,28 @@
-simple 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Background</title>
+    <link rel="stylesheet" href="C:\Users\Basha\animation.css">
+</head>
+<body>
+    <div class="animated-background"></div>
+    <div class="content">
+        <h1>Welcome to My Website</h1>
+        <p>This is an example of an animated background.</p>
+        <p><strong>HEREEE==>  </strong><a href="www.google.com">TOUCH THIS</a></p>
+        </div>
+        <div class="para">
+        
+        <h3>Finally she choose to take care of </h3>
+        <ol type="a">
+            <li>she</li>
+            <li>her</li>
+            <li>herself</li>
+        </ol>
+        <p>Gender : female<input type="radio">male:<input type="radio" name="gender"></p>
+        </div>
+    
+</body>
+</html>
