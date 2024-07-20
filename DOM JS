@@ -4,11 +4,12 @@ const paragraphs = document.querySelectorAll("p");
 alert(paragraphs[0].nodeName);
 
 
-
-
-
-
-
+//python DOM 
+# Python DOM example
+import xml.dom.minidom as m
+doc = m.parse(r"C:\Projects\Py\chap1.xml")
+doc.nodeName # DOM property of document object
+p_list = doc.getElementsByTagName("para")
 
 
 
