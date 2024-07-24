@@ -1,7 +1,6 @@
 from flask import Flask, request, redirect, jsonify
 from flask_pymongo import PyMongo
 import shortuuid
-
 app = Flask(__name__)
 app.config["MONGO_URI"] = "mongodb://localhost:27017/urlShortener"
 mongo = PyMongo(app)
@@ -27,4 +26,3 @@ def redirect_to_url(short_code):
 
 if __name__ == '__main__':
     app.run(debug=True)
-
