@@ -17,7 +17,6 @@ def shorten():
         'shortCode': short_code
     })
     return jsonify({'shortUrl': short_url})
-
 @app.route('/<short_code>', methods=['GET'])
 def redirect_to_url(short_code):
     url_data = mongo.db.urls.find_one({'shortCode': short_code})
