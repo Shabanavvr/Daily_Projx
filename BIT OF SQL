@@ -3,7 +3,6 @@ SELECT name, genre
 FROM movies;
 
 
-//
 The SQL Server Browser program runs as a Windows service. SQL Server Browser listens for incoming requests for Microsoft SQL Server resources and provide information about SQL Server instances installed on the computer. SQL Server Browser contributes to the following actions:
 •Browsing a list of available servers.
 •Connecting to the correct server instance.
