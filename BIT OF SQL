@@ -1,1 +1,3 @@
 SELECT * FROM movies;
+SELECT name, genre 
+FROM movies;
