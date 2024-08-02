@@ -1,0 +1,33 @@
+import requests
+from bs4 import BeautifulSoup
+
+# URL of the website to scrape
+url = 'https://blog.arcadina.com/en/nature-photographers-websites-for-inspiration/'  # Replace with the URL of the blog you want to scrape
+
+# Send a GET request to the website with headers
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+}
+response = requests.get(url, headers=headers)
+
+# Check if the request was successful
+if response.status_code == 200:
+    html_content = response.text
+    
+    # Parse the HTML content using BeautifulSoup
+    soup = BeautifulSoup(html_content, 'html.parser')
+    
+    # Find all the titles of articles
+    # Based on inspecting the webpage, adjust the element tag and class
+    titles = soup.select('h3 > a')  # Example: selecting anchor tags within h3 tags
+    
+    # Print the titles
+    for title in titles:
+        print(title.text.strip())
+        
+    # Save the titles to a text file
+    with open('titles.txt', 'w') as file:
+        for title in titles:
+            file.write(title.text.strip() + '\n')
+else:
+    print(f"Failed to retrieve the webpage. Status code: {response.status_code}")
