@@ -1,5 +1,7 @@
+#import the required modules
 import requests
 from bs4 import BeautifulSoup
+
 # URL of the website to scrape
 url = 'https://blog.arcadina.com/en/nature-photographers-websites-for-inspiration/'  # Replace with the URL of the blog you want to scrape
 # Send a GET request to the website with headers
