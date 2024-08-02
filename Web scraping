@@ -15,7 +15,6 @@ if response.status_code == 200:
     # Parse the HTML content using BeautifulSoup
     soup = BeautifulSoup(html_content, 'html.parser')
     
-    # Find all the titles of articles
     # Based on inspecting the webpage, adjust the element tag and class
     titles = soup.select('h3 > a')  # Example: selecting anchor tags within h3 tags
     
