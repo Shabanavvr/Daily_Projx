@@ -4,3 +4,38 @@
   button.addEventListener('click', function() {
     console.log('Button clicked!');
   });
+3. Programming Concepts
+
+Understanding of:
+Functional programming principles
+Object-Oriented Programming (OOP) concepts
+Event-driven programming
+State and props management
+4. Familiarity with Front-end Build Tools
+
+Knowledge of:
+npm (Node Package Manager) and yarn
+Webpack or other module bundlers
+Babel or other transpilers
+CSS preprocessors like Sass or Less
+5. Understanding of Web Development
+
+Familiarity with:
+Client-side rendering and server-side rendering
+RESTful APIs and HTTP requests
+Web storage and cookies
+Browser compatibility and debugging techniques
+6. Basic Understanding of React Ecosystem
+
+Familiarity with:
+JSX (JavaScript XML) syntax
+React components, props, and state
+React Hooks (useState, useEffect, etc.)
+React Router or other client-side routing libraries
+Optional but Recommended
+
+Knowledge of:
+TypeScript or other type systems
+GraphQL or other data query languages
+Redux or other state management libraries
+WebAssembly or other emerging web technologies
