@@ -1,0 +1,2 @@
+npx create-next-app inventory-management-app
+cd inventory-management-app
