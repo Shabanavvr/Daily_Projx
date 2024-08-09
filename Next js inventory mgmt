@@ -1,3 +1,8 @@
 npx create-next-app inventory-management-app
 cd inventory-management-app
 npm install @mui/material @emotion/react @emotion/styled firebase
+4. Setting up Firebase:
+— Go to the Firebase Console and create a new project.
+— Once your project is created, click on “Add app” and select the web platform (</>).
+— Register your app with a nickname (e.g., “Inventory Management App”).
+— Copy the Firebase configuration object. We’ll use this in the next step.
