@@ -8,7 +8,6 @@ The SQL Server Browser program runs as a Windows service. SQL Server Browser lis
 •Connecting to the correct server instance.
 •Connecting to dedicated administrator connection (DAC) endpoints.
 
-
 For each instance of the Database Engine and SQL Server Analysis Services (SSAS), the SQL Server Browser service (sqlbrowser) provides the instance name and the version number. SQL Server Browser is installed with SQL Server.
 
 SQL Server Browser can be configured during setup or using SQL Server Configuration Manager. By default, the SQL Server Browser service starts automatically:
