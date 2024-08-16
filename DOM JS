@@ -3,7 +3,6 @@ const paragraphs = document.querySelectorAll("p");
 // paragraphs[1] is the second <p> element, etc.
 alert(paragraphs[0].nodeName);
 
-
 //python DOM 
 # Python DOM example
 import xml.dom.minidom as m
