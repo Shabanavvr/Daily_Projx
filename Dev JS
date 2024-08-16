@@ -4,6 +4,7 @@
   button.addEventListener('click', function() {
     console.log('Button clicked!');
   });
+
 3. Programming Concepts
 
 Understanding of:
