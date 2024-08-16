@@ -6,6 +6,7 @@
     <title>Animated Background</title>
     <link rel="stylesheet" href="C:\Users\Basha\animation.css">
 </head>
+
 <body>
     <div class="animated-background"></div>
     <div class="content">
