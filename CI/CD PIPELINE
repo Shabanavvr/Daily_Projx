@@ -1,1 +1,14 @@
+Continuous Integration (CI)
+Continuous Integration (CI) is a software development practice where developers frequently commit code changes to a shared repository, ideally multiple times a day. Each time new code is committed, an automated process is triggered that builds the code, runs tests, and identifies bugs early. The core purpose of CI is to improve collaboration, detect integration problems quickly, and reduce integration issues that can arise when multiple developers work on the same project.
 
+Frequent Commits: Developers commit code changes more frequently to ensure the repository always has the latest working code.
+Automated Build and Test: After every commit, automated builds and tests run, giving developers quick feedback on their changes.
+Fail Early: CI allows teams to detect issues early, preventing small bugs from snowballing into more significant problems later in the process.
+Continuous Delivery (CD)
+Continuous Delivery (CD) builds on top of CI, automating the process of delivering code changes to a staging environment for further testing and validation. The goal of CD is to ensure that the codebase is always in a deployable state and that new features, bug fixes, and updates can be delivered to users as soon as they're ready.
+
+Automated Testing and Packaging: CD ensures that code changes are always tested and packaged for release.
+Manual Approval for Production: With Continuous Delivery, deployment to production is manual but prepared automatically. Human intervention is required for final approval.
+Release Anytime: By having a deployable product at any given time, teams can release new features faster and more frequently.
+Continuous Deployment
+Continuous Deployment takes Continuous Delivery a step further by automating the deployment of every change that passes through all stages of the pipeline directly to production. Continuous Deployment requires a high degree of confidence in the automated testing process because there’s no manual approval before deploying to production.
