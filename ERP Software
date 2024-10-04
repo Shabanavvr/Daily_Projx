@@ -1,0 +1,21 @@
+ERP-Java-Project/
+├── pom.xml
+├── src
+│   ├── main
+│   │   └── java
+│   │       └── com/yourcompany/erp
+│   │           ├── App.java                       (Main Application)
+│   │           ├── model
+│   │           │   ├── User.java                  (User Entity)
+│   │           │   ├── Product.java               (Product Entity)
+│   │           │   └── Order.java                 (Order Entity)
+│   │           ├── service
+│   │           │   ├── UserService.java           (User-related operations)
+│   │           │   ├── InventoryService.java      (Inventory-related operations)
+│   │           │   └── OrderService.java          (Order-related operations)
+│   │           ├── util
+│   │           │   ├── ReportGenerator.java       (Reporting logic)
+│   │           └── dao
+│   │               ├── UserDAO.java               (Database operations for User)
+│   │               ├── ProductDAO.java            (Database operations for Product)
+│   │               └── OrderDAO.java              (Database operations for Orders)
