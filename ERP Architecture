@@ -1,0 +1,17 @@
+ERP-Java/
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── com/
+│   │           └── example/
+│   │               ├── App.java
+│   │               ├── ERPSystem.java
+│   │               ├── Leaderboard.java
+│   │               └── PredictionEngine.java
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── example/
+│                   └── AppTest.java
+├── pom.xml
+└── README.md (optional)
